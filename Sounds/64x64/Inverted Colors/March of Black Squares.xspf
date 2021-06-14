@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/White.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Top_Left.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Top_Center.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Top_Right.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Center_Left.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Center.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Center_Right.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Bottom_Left.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Bottom_Center.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///mnt/veracrypt1/Elliot%20Swaim/Programming%20and%20Graphics/Python/2021/Image%20to%20Sound/Sounds/64x64/Inverted%20Colors/Square_Bottom_Right.wav</location>
+			<duration>1000</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+	</extension>
+</playlist>
