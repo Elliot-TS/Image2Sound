@@ -15,15 +15,19 @@ Next, you need to install Anaconda.  Anaconda is a program that will enable you 
 
 ### Install Python Libraries
 The next thing you need to install is numpy.  Numpy is a python library, or a program that extends pythons capabilities.  In this case, I'm using it to be able to process long lists of hundreds or thousands of frequencies much faster than would otherwise be possible.  To install it, in the Anaconda Prompt, enter
+
 ```conda install numpy```
 
 The next step is to install PyAudio.  PyAudio is a python library that enables you to play audio files while the program is running.  To install it, in the Anaconda Prompt, enter
+
 ```conda install pyaudio```
 
 Finally, we need opencv, a python library that lets you read and write to image files.
+
 ```conda install opencv```
 
 Once all that is done, still in the Anaconda Prompt, go to the folder where the Image2Sound.py file is downloaded.  The `cd` command lets you **c**hange your **d**irectory.  Thus, if you downloaded the Image2Sound folder leaving everything in its default path, you just need to enter in the Anaconda Prompt
+
 ```cd C:/Users/USERNAME/Downloads/Image2Sound-main/Image2Sound-main/```
 
 Finally, you can run the program by typing `python Image2Sound.py`.
@@ -35,24 +39,33 @@ Trying to figure out how to run this in Winodws helped remind me why I like Linu
 First, check if python is installed.  Open the terminal (usually CTRL+ALT+T or SUPER+T) and enter `python3 --version`.  If it says something like `command not found`, then you need to install python.  Otherwise, you're good.
 
 To install python, if you're on a Debian based distrobution (Debian, Ubuntu, Mint, Pop! OS etc.), enter
+
 ```sudo apt-get install python3```
 
 If you're on an Arch based distrobution (Arch, Manjaro, etc.)
+
 ```sudo pacman -Syu python3```
 
 If you're on a Red Hat based distrobution (Red Hat, Cent OS, Fedora, etc.)
+
 ``` sudo yum install python3```
 
 ### Install Pip
 Next, to install the python libraries, we'll install pip.  Check if it's already installed by entering `pip --version`.  If it gives you a version, you can skip this step.  Otherwise, install it via
+
 Debian: `sudo apt install python3-pip`
+
 Arch: `sudo pacman -S python-pip`
+
 Red Hat: `sudo yum install epel-release` and then `sudo yum install python-pip`
 
 ### Instally Python Libraries
 Finally, install the python libraries
+
 ```pip install numpy```
+
 ```pip install pyaudio```
+
 ```pip install opencv-python```
 
 At last, to run Image2Sound.py, go to that folder in the terminal: `cd /home/USERNAME/Downloads/Image2Sound-main/` and run the program `python3 Image2Sound.py`.
