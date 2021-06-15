@@ -1,7 +1,7 @@
 # Image2Sound
 Converts Images to Sounds by mapping each pixel to a unique frequency using a Hilbert Curve, and then making each frequency have an amplitude equal to that pixel's brightness.
 
-For more details about how this works, it was inspired by this 3Blue1Brown video (https://youtu.be/3s7h2MHQtxc).  It explains everything better than I possibly could.
+For more details about how this works, it was inspired by this [3Blue1Brown video](https://youtu.be/3s7h2MHQtxc).  It explains everything better than I possibly could.
 
 # Examples
 ## Circle Top Left vs Center vs Bottom Left
