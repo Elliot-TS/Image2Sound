@@ -30,7 +30,7 @@ Once all that is done, still in the Anaconda Prompt, go to the folder where the 
 
 ```cd C:/Users/USERNAME/Downloads/Image2Sound-main/Image2Sound-main/```
 
-Finally, you can run the program by typing `python Image2Sound.py`.
+Finally, you can run the program by typing `python Default.py`.
 
 ## Linux
 Trying to figure out how to run this in Winodws helped remind me why I like Linux so much.  For one thing, most of the prerequisites are probably already installed.  But for another thing, if they're not installed, installing them is really easy.
@@ -68,9 +68,13 @@ Finally, install the python libraries
 
 ```pip install opencv-python```
 
-At last, to run Image2Sound.py, go to that folder in the terminal: `cd /home/USERNAME/Downloads/Image2Sound-main/` and run the program `python3 Image2Sound.py`.
+At last, to run Image2Sound.py, go to that folder in the terminal: `cd /home/USERNAME/Downloads/Image2Sound-main/` and run the program `python3 Default.py`.
 
 # Using the Program
-To change which image the program turns to sound, open the Image2Sound.py file in a code editor.  On Windows, right click on it and choose "Edit with IDLE."  On Linux, just open it up in a normal text editor or your favorite code editor.  If you scroll through the file, you find a section called "HOW TO USE."  Read those instructions to see how to use the program.
+`HilbertNumpy.py` and `Image2Sound.py` are the files that do all the work and can be left pretty much alone, but the rest are meant for you to explore and change.  `Default.py` is a good place to start as it's set up the most simple and has a bunch of comments explaining each setting you can change.  `ShapeCrawl.py` and `ShapeMarch.py` use slightly more advanced code to create multiple audio files at once.  It's recommended that you start with `Default.py` to learn the settings and how to use Image2Sound and then checking out the others to see how you can generate multiple files at once.
 
-Once you're done making your desired changes, open the terminal in Linux or the Anaconda Prompt in Windows, navigate to the directory where the python file is (using `cd` to change your directory), and run the program with `python Image2Sound.py` (you may need to do `python3 Image2Sound.py` in Linux)
+To run any of the programs, open the terminal in Linux or the Anaconda Prompt in Windows, navigate to the directory where the python file is (using `cd` to change your directory), and run the program with `python Default.py` (you may need to do `python3 Default.py` instead on Linux).  Each program (except `HilbertNumpy.py` and `Image2Sound.py`) is already fully set up and will produce a sound, but in order to change what image you want to listen to, you'll have to edit the code.
+
+In Windows, right click on the program and choose "Edit in IDLE."  In Linux, simply open up the file in a text editor.  For `Default.py`, read through the `How to Use` section to understand what all the settings do.  Once you're done making the desired changes, save the file and run it in the terminal.
+
+Note, on Windows, there's a way to run the program in IDLE.  However, because of how the python libraries were set up, this will probably NOT work.  I burst enough brain cells just trying to figure out how to get everything working in Windows, so I don't feel like trying to figure out how to do it right so that it'll work running it in IDLE.  If you know how to do it, feel free to send a pull request to change this ReadMe with the instructions.
