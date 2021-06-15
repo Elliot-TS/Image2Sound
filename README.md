@@ -45,6 +45,13 @@ It can even distinguish between similar letters such as U and V
 
 [Letter V Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Letter_V.wav?raw=true)
 
+## Lion
+And finally, just for fun, here's a lion
+
+![Lion Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Lion.png)
+
+[Lion Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Lion_[0,0].wav?raw=true)
+
 # Download
 To download, click on the "Code" button and choose "Download ZIP."  You can then extract it in your Downloads folder.
 
