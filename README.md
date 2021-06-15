@@ -1,6 +1,37 @@
 # Image2Sound
 Converts Images to Sounds by mapping each pixel to a unique frequency using a Hilbert Curve, and then making each frequency have an amplitude equal to that pixel's brightness.
 
+For more details about how this works, it was inspired by this 3Blue1Brown video (https://youtu.be/3s7h2MHQtxc).  It explains everything better than I possibly could.
+
+# Examples
+## Circle Top Left vs Center vs Bottom Left
+The position of each pixel is encoded by a unique frequency.  Nearby frequencies refer to nearby pixels, though not all nearby pixels are given nearby frequencies.  As a result, position is easy to hear.
+
+![Circle Top Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Top_Left.png)
+[Circle Top Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Top_Left.wav?raw=true)
+
+![Circle Center Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Center.png)
+[Circle Center Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Center.wav?raw=true)
+
+![Circle Bottom Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Bottom_Left.png)
+[Circle Bottom Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Bottom_Left.wav?raw=true)
+
+## Circle vs Square
+The difference between a circle and a square is a lot more subtle, but it is noticible, especially in the bottom left corner where the frequencies are lower and easier to distinguish.  With practice, you can hear the distinction in other locations as well.
+![Circle Bottom Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Bottom_Left.png)
+[Circle Bottom Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Bottom_Left.wav?raw=true)
+
+![Square Bottom Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Square_Bottom_Left.png)
+[Square Bottom Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Square_Bottom_Left.wav?raw=true)
+
+## Letter U vs V
+It can even distinguish between similar letters such as U and V
+![Letter U Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Letter_U.png)
+[Letter U Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Letter_U.wav?raw=true)
+
+![Letter V Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Letter_V.png)
+[Letter V Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Letter_V.wav?raw=true)
+
 # Download
 To download, click on the "Code" button and choose "Download ZIP."  You can then extract it in your Downloads folder.
 
