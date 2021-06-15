@@ -12,6 +12,7 @@ def getName(shape, position, resolution, inverted=False):
     if inverted: name = "Inverted Colors/"
     else: name = ""
     name = str(resolution)+'x'+str(resolution)+'/'+name+shape+'_'+str(position)
+    return name
 
 
 #######################
@@ -82,7 +83,7 @@ def image2Sound(img, invert=False):
     print("Determining Amplitudes")
     x,y = d2xy(M, np.arange(numFreq))
     if invert: amplitudes = 1 - (img[resolution-y-1,x,0] / 255)
-    else: amplitudes = 1 - (img[resolution-y-1,x,0] / 255)
+    else: amplitudes = (img[resolution-y-1,x,0] / 255)
 
     print("...found "+str(amplitudes[amplitudes != 0].size)+" non-zero amplitudes\n")
 
@@ -233,7 +234,7 @@ position = [64-16, 64-16] would put the shape flush against the top right corner
 # Input/Output Settings
 generateImage = False   # True = generate Image. False = use existing image
 writeImage = False      # True = save generated Image to file. False = don't save (only applies if generateImage = True)
-writeAudio = True       # True = save audio as file.  False = play the audio without saving
+writeAudio = False       # True = save audio as file.  False = play the audio without saving
 invertImage = False     # True = invert colors.  False = do not invert colors
 
 name = getName(shape, position, resolution) # Gets the name of the image/audio file without the extension (i.e. .png and .wav).  It automatically looks for images inside the ./Pictures folder and writes audio to ./Sounds folder, so neither are included here.
