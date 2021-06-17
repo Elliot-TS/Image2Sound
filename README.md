@@ -84,8 +84,6 @@ Once all that is done, still in the Anaconda Prompt, go to the folder where the 
 Finally, you can run the program by typing `python Default.py`.
 
 ## Linux
-Trying to figure out how to run this in Winodws helped remind me why I like Linux so much.  For one thing, most of the prerequisites are probably already installed.  But for another thing, if they're not installed, installing them is really easy.
-
 ### Install Python
 First, check if python is installed.  Open the terminal (usually CTRL+ALT+T or SUPER+T) and enter `python3 --version`.  If it says something like `command not found`, then you need to install python.  Otherwise, you're good.
 
