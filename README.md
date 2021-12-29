@@ -52,11 +52,9 @@ And finally, just for fun, here's a lion
 
 [Lion Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Lion_%5B0,%200%5D.wav?raw=true)
 
-...and a lion with edge detection
-
 ![Edge Lion Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/128x128/Lion_%5B0%2C%200%5D.png)
 
-[Lion Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/128x128/Lion_%5B0,%200%5D.wav?raw=true)
+[Lion (Edge Filter) Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/128x128/Lion_%5B0,%200%5D.wav?raw=true)
 
 
 # Download
