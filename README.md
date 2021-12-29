@@ -52,6 +52,11 @@ And finally, just for fun, here's a lion
 
 [Lion Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Lion_%5B0,%200%5D.wav?raw=true)
 
+...and a lion with edge detection
+![Edge Lion Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/128x128/Lion%5B0,%200%5D.png)
+[Lion Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/128x128/Lion_%5B0,%200%5D.wav?raw=true)
+
+
 # Download
 To download, click on the "Code" button and choose "Download ZIP."  You can then extract it in your Downloads folder.
 
