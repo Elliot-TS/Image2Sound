@@ -7,54 +7,54 @@ For more details about how this works, it was inspired by this [3Blue1Brown vide
 ## Circle Top Left vs Center vs Bottom Left
 The position of each pixel is encoded by a unique frequency.  Nearby frequencies refer to nearby pixels, though not all nearby pixels are given nearby frequencies.  As a result, position is easy to hear.
 
-![Circle Top Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Top_Left.png)
+![Circle Top Left Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Circle_Top_Left.png)
 
-[Circle Top Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Top_Left.wav?raw=true)
-
-
-![Circle Center Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Center.png)
-
-[Circle Center Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Center.wav?raw=true)
+[Circle Top Left Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Circle_Top_Left.wav?raw=true)
 
 
-![Circle Bottom Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Bottom_Left.png)
+![Circle Center Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Circle_Center.png)
 
-[Circle Bottom Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Bottom_Left.wav?raw=true)
+[Circle Center Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Circle_Center.wav?raw=true)
+
+
+![Circle Bottom Left Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Circle_Bottom_Left.png)
+
+[Circle Bottom Left Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Circle_Bottom_Left.wav?raw=true)
 
 ## Circle vs Square
 The difference between a circle and a square is a lot more subtle, but it is noticible, especially in the bottom left corner where the frequencies are lower and easier to distinguish.  With practice, you can hear the distinction in other locations as well.
 
-![Circle Bottom Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Circle_Bottom_Left.png)
+![Circle Bottom Left Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Circle_Bottom_Left.png)
 
-[Circle Bottom Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Circle_Bottom_Left.wav?raw=true)
+[Circle Bottom Left Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Circle_Bottom_Left.wav?raw=true)
 
 
-![Square Bottom Left Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Square_Bottom_Left.png)
+![Square Bottom Left Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Square_Bottom_Left.png)
 
-[Square Bottom Left Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Square_Bottom_Left.wav?raw=true)
+[Square Bottom Left Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Square_Bottom_Left.wav?raw=true)
 
 ## Letter U vs V
 It can even distinguish between similar letters such as U and V
 
-![Letter U Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Letter_U.png)
+![Letter U Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Letter_U.png)
 
-[Letter U Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Letter_U.wav?raw=true)
+[Letter U Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Letter_U.wav?raw=true)
 
 
-![Letter V Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Letter_V.png)
+![Letter V Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Letter_V.png)
 
-[Letter V Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Letter_V.wav?raw=true)
+[Letter V Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Letter_V.wav?raw=true)
 
 ## Lion
 And finally, just for fun, here's a lion
 
-![Lion Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/64x64/Lion.png)
+![Lion Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/64x64/Lion.png)
 
-[Lion Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/64x64/Lion_%5B0,%200%5D.wav?raw=true)
+[Lion Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/64x64/Lion_%5B0,%200%5D.wav?raw=true)
 
-![Edge Lion Image](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Pictures/128x128/Lion_%5B0%2C%200%5D.png)
+![Edge Lion Image](https://github.com/Elliot-TS/Image2Sound/blob/main/Pictures/128x128/Lion_%5B0%2C%200%5D.png)
 
-[Lion (Edge Filter) Audio](https://github.com/RingOfProgrammers/Image2Sound/blob/main/Sounds/128x128/Lion_%5B0,%200%5D.wav?raw=true)
+[Lion (Edge Filter) Audio](https://github.com/Elliot-TS/Image2Sound/blob/main/Sounds/128x128/Lion_%5B0,%200%5D.wav?raw=true)
 
 
 # Download
